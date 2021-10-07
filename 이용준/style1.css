@@ -1,0 +1,168 @@
+.main {
+  background-color: #77AAD9;
+  height: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.main {
+  background-color: #77AAD9;
+  height: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contact {
+  z-index: 2;
+  position: absolute;
+  margin-top: 80px;
+  width: 800px;
+  height: 600px;
+  -ms-flex-item-align: center;
+      align-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.contact .box {
+  width: 600px;
+  background-color: white;
+  -webkit-box-shadow: 5px 5px 20px #4d4c4c;
+          box-shadow: 5px 5px 20px #4d4c4c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.contact .box .net {
+  width: 400px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 100px 50px 50px 200px 100px 100px;
+      grid-template-rows: 100px 50px 50px 200px 100px 100px;
+}
+
+.contact .box .net .contactus {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.contact .box .net div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact .box .net div .name {
+  width: 320px;
+  padding: 10px;
+}
+
+.contact .box .net div .mail {
+  width: 320px;
+  padding: 10px;
+}
+
+.contact .box .net div .message {
+  width: 320px;
+  height: 120px;
+  padding: 10px;
+}
+
+.contact .box .net div input {
+  border: none;
+  border-bottom: 2px black solid;
+}
+
+.contact .box .net div textarea {
+  border: none;
+  border-bottom: 2px black solid;
+}
+
+.contact .box .net .submit {
+  font-weight: 800;
+  width: 150px;
+  height: 50px;
+  border: solid black 2px;
+}
+
+.contact .box .net .submit:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.img {
+  z-index: 6;
+  right: 200px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  position: relative;
+  margin-top: 300px;
+}
+
+.call {
+  top: 100px;
+  z-index: 10;
+  background-color: #332B29;
+  -ms-grid-row-align: center;
+      align-self: center;
+  position: absolute;
+  width: 720px;
+  height: 200px;
+  margin-top: 750px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 240px 240px 240px;
+      grid-template-columns: 240px 240px 240px;
+  color: white;
+}
+
+.call .c {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.call .c .tt {
+  font-weight: 800;
+}
+
+.call .c .mt {
+  padding: 20px;
+}
+/*# sourceMappingURL=style1.css.map */
