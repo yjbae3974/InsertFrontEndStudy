@@ -1,0 +1,113 @@
+.main {
+    background-color: #77AAD9;
+    height: 1000px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+.main{
+    background-color: #77AAD9;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+}  
+.contact{
+    z-index: 2;
+    position: absolute;
+    margin-top: 80px;
+    width: 800px;
+    height: 600px;
+    align-self: center;
+    display: flex;
+    justify-content: end;
+    .box{
+        width: 600px;
+        background-color: white;
+        box-shadow: 5px 5px 20px rgb(77, 76, 76);
+        display: flex;
+        justify-content: end;
+        .net{
+            width: 400px;
+            display: grid;
+            grid-template-rows: 100px 50px 50px 200px 100px 100px;
+            .contactus{
+                font-size: 32px;
+                font-weight: 600;
+            }
+            div{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .name{
+                    width: 320px;
+                    padding: 10px;
+                }
+                .mail{
+                    width: 320px;
+                    padding: 10px;
+                }
+                .message{
+                    width: 320px;
+                    height: 120px;
+                    padding: 10px;
+                }
+                input{
+                    border: none;
+                    border-bottom: 2px black solid;
+                }
+                textarea{
+                    border: none;
+                    border-bottom: 2px black solid;
+                }
+            }
+            .submit{
+                font-weight: 800;
+                width: 150px;
+                height: 50px;
+                border: solid black 2px;
+                &:hover{
+                    background-color: black;
+                    color: white;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+.img{
+    z-index: 6;
+    right: 200px;
+    align-self: center;
+    position: relative;
+    margin-top: 300px;
+}
+.call{
+    top: 100px;
+    z-index: 10;
+    background-color: #332B29;
+    align-self: center;
+    position: absolute;
+    width: 720px;
+    height: 200px;
+    margin-top: 750px;
+    display: grid;
+    grid-template-columns: 240px 240px 240px;
+    color: white;
+    .c{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .tt{
+            font-weight: 800;
+        }
+        .mt{
+            padding: 20px;
+        }
+    }
+}

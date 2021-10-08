@@ -1,0 +1,30 @@
+.main{
+    width: 100%;
+    height: 800px;
+    background-image: url(3.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    .texts{
+        position: absolute;
+        top: 550px;
+        width: 1000px;
+        height: 300px;
+        display: grid;
+        grid-template-columns: 500px 500px;
+        .breath{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 50px;
+            font-weight: 600;
+            color: white;
+        }
+        .right{
+            font-weight: 600;
+            align-items: center;
+            display: flex;
+            color: white;
+        }
+    }
+}
