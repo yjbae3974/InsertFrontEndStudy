@@ -1,6 +1,6 @@
 main {
   width: 100%;
-  height: 100vh;
+  height: 200vh;
   background-color: #333333;
 }
 
@@ -9,15 +9,15 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 8vh;
+  height: 150vh;
   color: white;
   font-size: 30px;
 }
 
 .container .row {
-  margin: auto;
+  margin-left: 10%;
   width: 80%;
-  height: 100%;
+  height: 8vh;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -45,16 +45,55 @@ main {
 }
 
 .container .right a {
-  color: #949494;
   text-decoration: none;
+  color: #949494;
+  padding-bottom: 2px;
 }
 
 .container .right a:hover {
   border-bottom: 2px solid #949494;
 }
 
-.container .right a:active {
-  color: white;
-  border-bottom: 2px solid white;
+.container .card-body {
+  color: black;
+  height: 15vh;
+}
+
+.container .card-body:hover .card-title {
+  display: none;
+}
+
+.container .card-body:hover p {
+  display: block;
+}
+
+.container .card-body .card-title {
+  font-size: 2vh;
+}
+
+.container .card-body p {
+  font-size: 1.5vh;
+  margin-bottom: 2px;
+  display: none;
+}
+
+.container .card-body a {
+  font-size: 1.5vh;
+  height: 3vh;
+}
+
+.container .cardrow {
+  width: 100%;
+  margin: 0px;
+  height: 40%;
+}
+
+.container .card {
+  width: 80%;
+  height: 50%;
+}
+
+.container .card img {
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
